@@ -7,7 +7,7 @@ void troca_maior_e_menor(int m[M][N], int l1, int c1, int l2, int c2);
 int main() {
     int nl, nc, i, j, m[M][N];
     int maiL, maiC, menL, menC;
-    int menor = 1000, maior = 0, swap;
+    int menor = 1000, maior = 0;
     scanf("%d %d", &nl, &nc);
     for (i = 0; i < nl; i++) {
         for (j = 0; j < nc; j++) {
