@@ -26,6 +26,7 @@ int main() {
         }
         media = soma / (d * 1.0);
         printf("Mes %d: %.1lf\n", m, media);
+        free(*t);
     }
     printf("Maxima: %.1lf(%d), Minima: %.1lf(%d)\n", maior, mm1, menor, mm2);
     free(t);
