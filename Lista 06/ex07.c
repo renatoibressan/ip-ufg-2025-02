@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-
+// Distância entre pontos
 typedef struct point {
     double u, x, y, z;
 } ponto;
