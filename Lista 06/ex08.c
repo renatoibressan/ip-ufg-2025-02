@@ -42,8 +42,7 @@ int main() {
         }
     }
     for (k = 0; k < m; k++) {
-        printf("Aluno(a): %s Curso: %s Num. Creditos: %d Valor Credito: %.2f Mensalidade: %.2f\n", 
-        a[k].nome, grad[k], a[k].qtdcred, credito[k], mensal[k]);
+        printf("Aluno(a): %s Curso: %s Num. Creditos: %d Valor Credito: %.2f Mensalidade: %.2f\n", a[k].nome, grad[k], a[k].qtdcred, credito[k], mensal[k]);
     }
     for (j = 0; j < m; j++) {
         free(a[j].nome);
