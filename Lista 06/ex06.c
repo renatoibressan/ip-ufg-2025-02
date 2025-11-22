@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define N 205
-
+// Ordenação por Data
 typedef struct data {
     int dia;
     int mes;
