@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+// Mercado
 typedef struct fruta {
     char name[55];
     float price;
