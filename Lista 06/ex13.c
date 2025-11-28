@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
+// Raízes de equações quadradas
 typedef struct Complex {
     float real, imaginario;
 } complex;
