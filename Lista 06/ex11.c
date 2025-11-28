@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+// Estiagem
 typedef struct casa {
     int pessoas, consumo, media;
 } Casa;
